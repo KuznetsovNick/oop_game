@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{4e69b1ab-f94b-498e-ba91-6b7fbd40b635}</ProjectGuid>
+    <RootNamespace>gameoop</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>SFML_STATIC;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\SFML-2.5.1\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;gdi32.lib;winmm.lib;kernel32.lib;sfml-graphics-s-d.lib;sfml-window-s-d.lib;sfml-system-s-d.lib;user32.lib;openal32.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;ws2_32.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="actionFactory.cpp" />
+    <ClCompile Include="clear.cpp" />
+    <ClCompile Include="coin.cpp" />
+    <ClCompile Include="coinMessage.cpp" />
+    <ClCompile Include="consoleLogger.cpp" />
+    <ClCompile Include="controlGUI.cpp" />
+    <ClCompile Include="controller.cpp" />
+    <ClCompile Include="controlScan.cpp" />
+    <ClCompile Include="creator.cpp" />
+    <ClCompile Include="decorator.cpp" />
+    <ClCompile Include="door.cpp" />
+    <ClCompile Include="download.cpp" />
+    <ClCompile Include="drawPlayer.cpp" />
+    <ClCompile Include="emptyMessage.cpp" />
+    <ClCompile Include="ending.cpp" />
+    <ClCompile Include="endMessage.cpp" />
+    <ClCompile Include="errorLog.cpp" />
+    <ClCompile Include="errorM.cpp" />
+    <ClCompile Include="field.cpp" />
+    <ClCompile Include="cell.cpp" />
+    <ClCompile Include="drawField.cpp" />
+    <ClCompile Include="fieldBuilder.cpp" />
+    <ClCompile Include="fieldDec.cpp" />
+    <ClCompile Include="fieldExc.cpp" />
+    <ClCompile Include="fileDec.cpp" />
+    <ClCompile Include="fileLogger.cpp" />
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="gameLog.cpp" />
+    <ClCompile Include="gameM.cpp" />
+    <ClCompile Include="hashDec.cpp" />
+    <ClCompile Include="hashExc.cpp" />
+    <ClCompile Include="level_1.cpp" />
+    <ClCompile Include="level_2.cpp" />
+    <ClCompile Include="fileExc.cpp" />
+    <ClCompile Include="message.cpp" />
+    <ClCompile Include="loggerPool.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="obstacleMessage.cpp" />
+    <ClCompile Include="player.cpp" />
+    <ClCompile Include="actionTracker.cpp" />
+    <ClCompile Include="exit.cpp" />
+    <ClCompile Include="save.cpp" />
+    <ClCompile Include="workWithCmds.cpp" />
+    <ClCompile Include="playLog.cpp" />
+    <ClCompile Include="playM.cpp" />
+    <ClCompile Include="smallMessage.cpp" />
+    <ClCompile Include="start.cpp" />
+    <ClCompile Include="startMessage.cpp" />
+    <ClCompile Include="tablo.cpp" />
+    <ClCompile Include="trap.cpp" />
+    <ClCompile Include="trapMessage.cpp" />
+    <ClCompile Include="window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="action.h" />
+    <ClInclude Include="clear.h" />
+    <ClInclude Include="coin.h" />
+    <ClInclude Include="coinMessage.h" />
+    <ClInclude Include="consoleLogger.h" />
+    <ClInclude Include="controlGUI.h" />
+    <ClInclude Include="controller.h" />
+    <ClInclude Include="controlScan.h" />
+    <ClInclude Include="creator.h" />
+    <ClInclude Include="decorator.h" />
+    <ClInclude Include="download.h" />
+    <ClInclude Include="drawPlayer.h" />
+    <ClInclude Include="emptyMessage.h" />
+    <ClInclude Include="ending.h" />
+    <ClInclude Include="endMessage.h" />
+    <ClInclude Include="errorLog.h" />
+    <ClInclude Include="errorM.h" />
+    <ClInclude Include="exit.h" />
+    <ClInclude Include="field.h" />
+    <ClInclude Include="cell.h" />
+    <ClInclude Include="drawField.h" />
+    <ClInclude Include="actionFactory.h" />
+    <ClInclude Include="door.h" />
+    <ClInclude Include="fieldBuilder.h" />
+    <ClInclude Include="actionTracker.h" />
+    <ClInclude Include="fieldDec.h" />
+    <ClInclude Include="fieldExc.h" />
+    <ClInclude Include="fieldGenerator.h" />
+    <ClInclude Include="fileDec.h" />
+    <ClInclude Include="fileLogger.h" />
+    <ClInclude Include="gameLog.h" />
+    <ClInclude Include="gameM.h" />
+    <ClInclude Include="hashDec.h" />
+    <ClInclude Include="hashExc.h" />
+    <ClInclude Include="level_1.h" />
+    <ClInclude Include="level_2.h" />
+    <ClInclude Include="fileExc.h" />
+    <ClInclude Include="message.h" />
+    <ClInclude Include="logger.h" />
+    <ClInclude Include="loggerPool.h" />
+    <ClInclude Include="logType.h" />
+    <ClInclude Include="myExc.h" />
+    <ClInclude Include="obstacleMessage.h" />
+    <ClInclude Include="level.h" />
+    <ClInclude Include="playerAction.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="player.h" />
+    <ClInclude Include="fieldAction.h" />
+    <ClInclude Include="save.h" />
+    <ClInclude Include="spawnPlayer.h" />
+    <ClInclude Include="sizeField.h" />
+    <ClInclude Include="spawnCoin.h" />
+    <ClInclude Include="spawnDoor.h" />
+    <ClInclude Include="spawnObstacle.h" />
+    <ClInclude Include="spawnTrap.h" />
+    <ClInclude Include="workWithCmds.h" />
+    <ClInclude Include="playLog.h" />
+    <ClInclude Include="playM.h" />
+    <ClInclude Include="smallMessage.h" />
+    <ClInclude Include="startMessage.h" />
+    <ClInclude Include="tablo.h" />
+    <ClInclude Include="trapMessage.h" />
+    <ClInclude Include="trap.h" />
+    <ClInclude Include="window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="controllKeys.txt" />
+    <Text Include="default.txt" />
+    <Text Include="hash.txt" />
+    <Text Include="level1.txt" />
+    <Text Include="fileOutput.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="10.png" />
+    <Image Include="20.png" />
+    <Image Include="console.png" />
+    <Image Include="downButton.png" />
+    <Image Include="errorL.png" />
+    <Image Include="file.png" />
+    <Image Include="gameL.png" />
+    <Image Include="gpL.png" />
+    <Image Include="GUI.png" />
+    <Image Include="leftButton.png" />
+    <Image Include="level1.png" />
+    <Image Include="level2.png" />
+    <Image Include="load.png" />
+    <Image Include="map.png" />
+    <Image Include="next.png" />
+    <Image Include="rightButton.png" />
+    <Image Include="save.png" />
+    <Image Include="side_walk_left.png" />
+    <Image Include="side_walk_right.png" />
+    <Image Include="upButton.png" />
+    <Image Include="walk_down.png" />
+    <Image Include="walk_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="CyrilicOld.TTF" />
+    <Font Include="pico-8.ttf" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

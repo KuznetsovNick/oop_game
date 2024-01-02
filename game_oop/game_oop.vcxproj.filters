@@ -1,0 +1,510 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\player">
+      <UniqueIdentifier>{3a9bb312-5057-4549-9eaa-54a9faba5e4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\field">
+      <UniqueIdentifier>{d561f1aa-bb21-49b0-bf87-0c29f9459b1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\windows">
+      <UniqueIdentifier>{473c0df6-2b06-4944-87c8-a794dc920c82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\actions">
+      <UniqueIdentifier>{ba866ff6-0d71-47ea-9b64-16e6d8991d12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\creator">
+      <UniqueIdentifier>{3855fff5-7ad2-4485-b88e-6d5d9f2ac508}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\game">
+      <UniqueIdentifier>{b1e893df-410d-40b5-b6fc-34c28b2ed4f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\logging">
+      <UniqueIdentifier>{e046ac5e-ecd0-4b6c-88e8-e36d50d28ebc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\message">
+      <UniqueIdentifier>{4802e2fa-5d4b-4c29-b57b-3c9d05a01871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\controll">
+      <UniqueIdentifier>{282713aa-33fb-4545-82ac-0c878b27423f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\playerSprite">
+      <UniqueIdentifier>{e259f58d-c3c1-4a82-9899-5aa2f56b1a09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\actionsEvents">
+      <UniqueIdentifier>{4b8458ca-bf70-4018-8f64-35a1ef99a7ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\control">
+      <UniqueIdentifier>{4032587e-c2e5-4123-93f6-5c97e367c515}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\rules">
+      <UniqueIdentifier>{da33203f-d724-4d13-a3d3-b9af3b0a45f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\levels">
+      <UniqueIdentifier>{ef3177da-70bb-4908-92d5-0cd327ccda5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\download">
+      <UniqueIdentifier>{e855bd36-372d-44b5-a7d5-00dcc98bd686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\exception">
+      <UniqueIdentifier>{a0094a38-729b-4daf-98b8-9579ba3c141b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="player.cpp">
+      <Filter>Исходные файлы\player</Filter>
+    </ClCompile>
+    <ClCompile Include="drawPlayer.cpp">
+      <Filter>Исходные файлы\player</Filter>
+    </ClCompile>
+    <ClCompile Include="drawField.cpp">
+      <Filter>Исходные файлы\field</Filter>
+    </ClCompile>
+    <ClCompile Include="field.cpp">
+      <Filter>Исходные файлы\field</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>Исходные файлы\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="creator.cpp">
+      <Filter>Исходные файлы\creator</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Исходные файлы\game</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы\game</Filter>
+    </ClCompile>
+    <ClCompile Include="start.cpp">
+      <Filter>Исходные файлы\game</Filter>
+    </ClCompile>
+    <ClCompile Include="cell.cpp">
+      <Filter>Исходные файлы\field</Filter>
+    </ClCompile>
+    <ClCompile Include="coin.cpp">
+      <Filter>Исходные файлы\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="actionTracker.cpp">
+      <Filter>Исходные файлы\actionsEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="clear.cpp">
+      <Filter>Исходные файлы\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="actionFactory.cpp">
+      <Filter>Исходные файлы\actionsEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="tablo.cpp">
+      <Filter>Исходные файлы\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="trap.cpp">
+      <Filter>Исходные файлы\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="ending.cpp">
+      <Filter>Исходные файлы\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="exit.cpp">
+      <Filter>Исходные файлы\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="door.cpp">
+      <Filter>Исходные файлы\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="fieldBuilder.cpp">
+      <Filter>Исходные файлы\field</Filter>
+    </ClCompile>
+    <ClCompile Include="gameLog.cpp">
+      <Filter>Исходные файлы\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="loggerPool.cpp">
+      <Filter>Исходные файлы\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="fileLogger.cpp">
+      <Filter>Исходные файлы\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="consoleLogger.cpp">
+      <Filter>Исходные файлы\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="playLog.cpp">
+      <Filter>Исходные файлы\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="errorLog.cpp">
+      <Filter>Исходные файлы\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="message.cpp">
+      <Filter>Исходные файлы\message</Filter>
+    </ClCompile>
+    <ClCompile Include="gameM.cpp">
+      <Filter>Исходные файлы\message</Filter>
+    </ClCompile>
+    <ClCompile Include="errorM.cpp">
+      <Filter>Исходные файлы\message</Filter>
+    </ClCompile>
+    <ClCompile Include="playM.cpp">
+      <Filter>Исходные файлы\message</Filter>
+    </ClCompile>
+    <ClCompile Include="coinMessage.cpp">
+      <Filter>Исходные файлы\message</Filter>
+    </ClCompile>
+    <ClCompile Include="emptyMessage.cpp">
+      <Filter>Исходные файлы\message</Filter>
+    </ClCompile>
+    <ClCompile Include="endMessage.cpp">
+      <Filter>Исходные файлы\message</Filter>
+    </ClCompile>
+    <ClCompile Include="obstacleMessage.cpp">
+      <Filter>Исходные файлы\message</Filter>
+    </ClCompile>
+    <ClCompile Include="smallMessage.cpp">
+      <Filter>Исходные файлы\message</Filter>
+    </ClCompile>
+    <ClCompile Include="startMessage.cpp">
+      <Filter>Исходные файлы\message</Filter>
+    </ClCompile>
+    <ClCompile Include="trapMessage.cpp">
+      <Filter>Исходные файлы\message</Filter>
+    </ClCompile>
+    <ClCompile Include="controller.cpp">
+      <Filter>Исходные файлы\control</Filter>
+    </ClCompile>
+    <ClCompile Include="controlGUI.cpp">
+      <Filter>Исходные файлы\control</Filter>
+    </ClCompile>
+    <ClCompile Include="controlScan.cpp">
+      <Filter>Исходные файлы\control</Filter>
+    </ClCompile>
+    <ClCompile Include="workWithCmds.cpp">
+      <Filter>Исходные файлы\control</Filter>
+    </ClCompile>
+    <ClCompile Include="level_2.cpp">
+      <Filter>Исходные файлы\levels</Filter>
+    </ClCompile>
+    <ClCompile Include="level_1.cpp">
+      <Filter>Исходные файлы\levels</Filter>
+    </ClCompile>
+    <ClCompile Include="download.cpp">
+      <Filter>Исходные файлы\download</Filter>
+    </ClCompile>
+    <ClCompile Include="save.cpp">
+      <Filter>Исходные файлы\download</Filter>
+    </ClCompile>
+    <ClCompile Include="fileExc.cpp">
+      <Filter>Исходные файлы\exception</Filter>
+    </ClCompile>
+    <ClCompile Include="fieldExc.cpp">
+      <Filter>Исходные файлы\exception</Filter>
+    </ClCompile>
+    <ClCompile Include="hashExc.cpp">
+      <Filter>Исходные файлы\exception</Filter>
+    </ClCompile>
+    <ClCompile Include="decorator.cpp">
+      <Filter>Исходные файлы\exception</Filter>
+    </ClCompile>
+    <ClCompile Include="fileDec.cpp">
+      <Filter>Исходные файлы\exception</Filter>
+    </ClCompile>
+    <ClCompile Include="hashDec.cpp">
+      <Filter>Исходные файлы\exception</Filter>
+    </ClCompile>
+    <ClCompile Include="fieldDec.cpp">
+      <Filter>Исходные файлы\exception</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="player.h">
+      <Filter>Исходные файлы\player</Filter>
+    </ClInclude>
+    <ClInclude Include="drawPlayer.h">
+      <Filter>Исходные файлы\player</Filter>
+    </ClInclude>
+    <ClInclude Include="drawField.h">
+      <Filter>Исходные файлы\field</Filter>
+    </ClInclude>
+    <ClInclude Include="field.h">
+      <Filter>Исходные файлы\field</Filter>
+    </ClInclude>
+    <ClInclude Include="window.h">
+      <Filter>Исходные файлы\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="action.h">
+      <Filter>Исходные файлы\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="fieldAction.h">
+      <Filter>Исходные файлы\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="playerAction.h">
+      <Filter>Исходные файлы\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="creator.h">
+      <Filter>Исходные файлы\creator</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Исходные файлы\game</Filter>
+    </ClInclude>
+    <ClInclude Include="cell.h">
+      <Filter>Исходные файлы\field</Filter>
+    </ClInclude>
+    <ClInclude Include="coin.h">
+      <Filter>Исходные файлы\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="actionTracker.h">
+      <Filter>Исходные файлы\actionsEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="clear.h">
+      <Filter>Исходные файлы\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="actionFactory.h">
+      <Filter>Исходные файлы\actionsEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="tablo.h">
+      <Filter>Исходные файлы\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="trap.h">
+      <Filter>Исходные файлы\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="ending.h">
+      <Filter>Исходные файлы\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="exit.h">
+      <Filter>Исходные файлы\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="door.h">
+      <Filter>Исходные файлы\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="fieldBuilder.h">
+      <Filter>Исходные файлы\field</Filter>
+    </ClInclude>
+    <ClInclude Include="logType.h">
+      <Filter>Исходные файлы\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="loggerPool.h">
+      <Filter>Исходные файлы\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="gameLog.h">
+      <Filter>Исходные файлы\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.h">
+      <Filter>Исходные файлы\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="fileLogger.h">
+      <Filter>Исходные файлы\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="consoleLogger.h">
+      <Filter>Исходные файлы\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="playLog.h">
+      <Filter>Исходные файлы\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="errorLog.h">
+      <Filter>Исходные файлы\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="message.h">
+      <Filter>Исходные файлы\message</Filter>
+    </ClInclude>
+    <ClInclude Include="coinMessage.h">
+      <Filter>Исходные файлы\message</Filter>
+    </ClInclude>
+    <ClInclude Include="trapMessage.h">
+      <Filter>Исходные файлы\message</Filter>
+    </ClInclude>
+    <ClInclude Include="startMessage.h">
+      <Filter>Исходные файлы\message</Filter>
+    </ClInclude>
+    <ClInclude Include="endMessage.h">
+      <Filter>Исходные файлы\message</Filter>
+    </ClInclude>
+    <ClInclude Include="smallMessage.h">
+      <Filter>Исходные файлы\message</Filter>
+    </ClInclude>
+    <ClInclude Include="obstacleMessage.h">
+      <Filter>Исходные файлы\message</Filter>
+    </ClInclude>
+    <ClInclude Include="emptyMessage.h">
+      <Filter>Исходные файлы\message</Filter>
+    </ClInclude>
+    <ClInclude Include="gameM.h">
+      <Filter>Исходные файлы\message</Filter>
+    </ClInclude>
+    <ClInclude Include="playM.h">
+      <Filter>Исходные файлы\message</Filter>
+    </ClInclude>
+    <ClInclude Include="errorM.h">
+      <Filter>Исходные файлы\message</Filter>
+    </ClInclude>
+    <ClInclude Include="controlScan.h">
+      <Filter>Исходные файлы\control</Filter>
+    </ClInclude>
+    <ClInclude Include="controller.h">
+      <Filter>Исходные файлы\control</Filter>
+    </ClInclude>
+    <ClInclude Include="controlGUI.h">
+      <Filter>Исходные файлы\control</Filter>
+    </ClInclude>
+    <ClInclude Include="workWithCmds.h">
+      <Filter>Исходные файлы\control</Filter>
+    </ClInclude>
+    <ClInclude Include="spawnPlayer.h">
+      <Filter>Исходные файлы\rules</Filter>
+    </ClInclude>
+    <ClInclude Include="sizeField.h">
+      <Filter>Исходные файлы\rules</Filter>
+    </ClInclude>
+    <ClInclude Include="spawnDoor.h">
+      <Filter>Исходные файлы\rules</Filter>
+    </ClInclude>
+    <ClInclude Include="spawnObstacle.h">
+      <Filter>Исходные файлы\rules</Filter>
+    </ClInclude>
+    <ClInclude Include="spawnTrap.h">
+      <Filter>Исходные файлы\rules</Filter>
+    </ClInclude>
+    <ClInclude Include="spawnCoin.h">
+      <Filter>Исходные файлы\rules</Filter>
+    </ClInclude>
+    <ClInclude Include="fieldGenerator.h">
+      <Filter>Исходные файлы\field</Filter>
+    </ClInclude>
+    <ClInclude Include="level.h">
+      <Filter>Исходные файлы\levels</Filter>
+    </ClInclude>
+    <ClInclude Include="level_1.h">
+      <Filter>Исходные файлы\levels</Filter>
+    </ClInclude>
+    <ClInclude Include="level_2.h">
+      <Filter>Исходные файлы\levels</Filter>
+    </ClInclude>
+    <ClInclude Include="download.h">
+      <Filter>Исходные файлы\download</Filter>
+    </ClInclude>
+    <ClInclude Include="save.h">
+      <Filter>Исходные файлы\download</Filter>
+    </ClInclude>
+    <ClInclude Include="fileExc.h">
+      <Filter>Исходные файлы\exception</Filter>
+    </ClInclude>
+    <ClInclude Include="fieldExc.h">
+      <Filter>Исходные файлы\exception</Filter>
+    </ClInclude>
+    <ClInclude Include="myExc.h">
+      <Filter>Исходные файлы\exception</Filter>
+    </ClInclude>
+    <ClInclude Include="hashExc.h">
+      <Filter>Исходные файлы\exception</Filter>
+    </ClInclude>
+    <ClInclude Include="decorator.h">
+      <Filter>Исходные файлы\exception</Filter>
+    </ClInclude>
+    <ClInclude Include="fileDec.h">
+      <Filter>Исходные файлы\exception</Filter>
+    </ClInclude>
+    <ClInclude Include="fieldDec.h">
+      <Filter>Исходные файлы\exception</Filter>
+    </ClInclude>
+    <ClInclude Include="hashDec.h">
+      <Filter>Исходные файлы\exception</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="level1.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="fileOutput.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="controllKeys.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="default.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="hash.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="map.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="10.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="20.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="errorL.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="gpL.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="gameL.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="file.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="console.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="next.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="side_walk_right.png">
+      <Filter>Файлы ресурсов\playerSprite</Filter>
+    </Image>
+    <Image Include="walk_down.png">
+      <Filter>Файлы ресурсов\playerSprite</Filter>
+    </Image>
+    <Image Include="walk_up.png">
+      <Filter>Файлы ресурсов\playerSprite</Filter>
+    </Image>
+    <Image Include="side_walk_left.png">
+      <Filter>Файлы ресурсов\playerSprite</Filter>
+    </Image>
+    <Image Include="downButton.png">
+      <Filter>Файлы ресурсов\controll</Filter>
+    </Image>
+    <Image Include="upButton.png">
+      <Filter>Файлы ресурсов\controll</Filter>
+    </Image>
+    <Image Include="rightButton.png">
+      <Filter>Файлы ресурсов\controll</Filter>
+    </Image>
+    <Image Include="leftButton.png">
+      <Filter>Файлы ресурсов\controll</Filter>
+    </Image>
+    <Image Include="GUI.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="level2.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="level1.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="save.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="load.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="pico-8.ttf">
+      <Filter>Файлы ресурсов</Filter>
+    </Font>
+    <Font Include="CyrilicOld.TTF">
+      <Filter>Файлы ресурсов</Filter>
+    </Font>
+  </ItemGroup>
+</Project>
